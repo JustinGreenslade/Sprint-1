@@ -1,0 +1,215 @@
+/*
+    Desc.: History of Atari Web Page. The early years, and listing of consoles.
+    Author: Joseph Gallant
+    Dates: Oct. 23 2024 - Oct. 30 2024
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+body {
+    background-color: peru;
+    background-image: url('images/wood_grain.jpg');
+    background-size: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+    text-align: justify;
+}
+
+hr {
+    color: peru;
+}
+
+figure {
+    margin-left: 0px;
+    margin-right: 0px;;
+}
+
+figure figcaption {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+img {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#mainbox {
+    width: 1000px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.786);
+    border-radius: 15px;
+    border: 5px solid burlywood;
+    margin: auto;
+}
+
+nav a, footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    border: 2px solid white;
+}
+
+nav a:link, footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited, footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, footer a:hover {
+    text-decoration: none;
+    color: white;
+    transform: scale(1.10); /* Scale up the image on hover */
+}
+
+.headersection {
+    width: 990px;
+    height: 100px;
+    background-color: black;
+    border-top: 2px solid peru;
+    border-bottom: 2px solid peru;
+    padding-top: 25px;
+}
+
+.headersection h1 {
+    margin-top: 0px;
+}
+
+.navsectionleft {
+    background-color: transparent;
+    width: 180px;
+    margin: auto;
+    position: fixed;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navsectionright {
+    background-color: transparent;
+    width: 180px;
+    margin: auto;
+    position: fixed;
+    margin-left: 800px;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navsectionbox {
+    background-color: black;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.mainsectionbox {
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+
+.mainsectionbox a {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.mainsectionbox a:link {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.mainsectionbox a:visited {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.mainsectionbox a:hover {
+    color: black;
+    background-color: burlywood;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.mainsectionbox h1 {
+    font-size: 26pt;
+    margin-top: 30px;
+}
+
+.mainsectionbox h2, .mainsectionbox h3 {
+    color: gold;
+}
+
+.mainsectionbox p {
+    text-align: justify;
+}
+
+.mainsectionbox img {
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+
+.consolespecstable {
+    text-align: left;
+}
+
+.consolespecstable th  {
+    width: 225px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid gold;
+}
+
+.consolespecstable td {
+    width: 450px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 2px dotted gold;
+    text-align: justify;
+}
+
+.footersection {
+    display: flex;
+    width: 990px;
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-top: 2px solid peru;
+    border-bottom: 2px solid peru;
+    text-align: center;
+    justify-content: center; /* centers up and down */
+}

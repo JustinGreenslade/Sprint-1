@@ -1,0 +1,195 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+body {
+    background-image: url(images/SonicPageImages/sonicBackground.jpg); /*/ Background by TwilightShadow180 on DeviantArt /*/
+    background-size: 30%; /*/ Get input on the size of this later /*/
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+}
+
+img {
+    border: 5px solid rgb(46, 46, 254);
+    border-radius: 10px;
+}
+
+#mainbox {
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.786);
+    border-radius: 15px;
+    border: 5px solid blue;
+    margin: auto;
+}
+
+nav a, footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    border: 2px solid white;
+}
+
+nav a:link, footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited, footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, footer a:hover {
+    text-decoration: none;
+    color: white;
+    transform: scale(1.10); /* Scale up the image on hover */
+}
+
+.headersection {
+    width: 950px;
+    height: 100px;
+    background-color: black;
+    border: 3px solid rgb(46, 46, 254);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.navsectionleft {
+    background-color: transparent;
+    width: 180px;
+    margin: auto;
+    position: fixed;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navsectionright {
+    background-color: transparent;
+    width: 180px;
+    margin: auto;
+    position: fixed;
+    margin-left: 800px;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navsectionbox {
+    background-color: black;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.mainsectionbox {
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid #FFD850;
+    border-radius: 10px;
+}
+
+.mainsectionbox h1{
+    font-size: 26pt;
+    margin-top: 30px;
+}
+
+.mainsectionbox h2, .mainsectionbox h3, .mainsectionbox h2 a {
+    color:rgb(46, 46, 254);
+}
+
+.mainsectionbox h2 a:hover{
+    color:#FFD850;
+}
+
+.mainsectionbox p{
+    text-align: justify;
+}
+
+.mainsectionbox img {
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    object-fit: cover;
+    height:100%;
+    width: 500px;
+}
+
+.consolespecstable {
+    text-align: left;
+}
+
+.consolespecstable th  {
+    width: 225px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid #FFD850;
+}
+
+.consolespecstable td {
+    width: 450px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 2px dotted #FFD850;
+}
+
+.footersection {
+    width: 990px;
+    height: 150px;
+    margin-top: 100px;
+    background-color: black;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blahaj{
+    border: none;
+    border-radius: 0px;
+    position:relative;
+    height:20px;
+    width:20px;
+    margin: 0px;
+    left:375px;
+    top:50px;
+}
+
+.blahaj img{
+    border:none;
+    margin:0px;
+    height:20px;
+    width:20px;
+    position: absolute;
+}
